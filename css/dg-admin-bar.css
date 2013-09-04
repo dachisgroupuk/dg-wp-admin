@@ -1,0 +1,34 @@
+#wpadminbar .ab-icon {
+	position: relative;
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-top: 6px;
+}
+
+#wpadminbar .ab-label {
+	margin-left: 4px;
+}
+
+/**
+ * WP Logo icon
+ */
+#wp-admin-bar-wp-logo > .ab-item .ab-icon {
+	width: 61px;
+	height: 20px;
+	margin-top: 4px;
+	background: url(../images/admin_logo.png);
+	background-repeat: no-repeat;
+}
+
+#wpadminbar.nojs #wp-admin-bar-wp-logo:hover > .ab-item .ab-icon,
+#wpadminbar #wp-admin-bar-wp-logo.hover > .ab-item .ab-icon {
+	background-position: 0 0;
+}
+/**
+ * IE 6-targeted rules
+ */
+* html #wpadminbar {
+	overflow: hidden;
+	position: absolute;
+}
